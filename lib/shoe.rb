@@ -5,7 +5,7 @@ BRANDS = []
   
   
   def initialize(brand)
-    self.brand= 
+    self.brand= brand
     
   end
 
