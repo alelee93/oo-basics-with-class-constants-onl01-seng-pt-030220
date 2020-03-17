@@ -1,4 +1,4 @@
-require .pry
+
 
 class Shoe
   attr_accessor :color, :size, :material, :condition
@@ -18,7 +18,7 @@ BRANDS = []
 
   def brand=(brand)
     @brand = brand
-    binding.pry
+    
     BRANDS << brand unless BRANDS.include?(brand)
   end
 end
