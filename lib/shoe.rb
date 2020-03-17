@@ -5,7 +5,7 @@ BRANDS = []
   
   
   def initialize(brand)
-    @brand = brand
+    self.brand= brand
     
   end
 
